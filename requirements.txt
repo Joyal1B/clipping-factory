@@ -1,0 +1,6 @@
+faster-whisper
+opencv-python
+mediapipe
+numpy
+scenedetect
+ultralytics

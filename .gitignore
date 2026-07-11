@@ -1,0 +1,44 @@
+# ─── Secrets — RÈGLE D'OR : zéro credential ne quitte la machine ───
+.env
+.env.*
+*.env
+*secret*
+*credential*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.p12
+cookies*.txt
+token*.json
+
+# ─── Python ───
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ─── Poids de modèles (à télécharger séparément) ───
+*.pt
+*.onnx
+models/
+
+# ─── Média entrée/sortie ───
+sources/
+work/
+clips/
+clips_v2/
+out/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.srt
+*.ass
+
+# ─── Divers ───
+.DS_Store
+THIS TEMPTING MADNESS/
